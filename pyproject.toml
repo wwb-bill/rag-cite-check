@@ -3,8 +3,8 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "rag-cite-check"
-version = "0.1.0"
-description = "Verify RAG citations survive truncation."
+version = "0.1.1"
+description = "Verify that RAG citations survive chunk truncation and context packing."
 authors = [{name = "wwb-bill", email = "wwb.bill@qq.com"}]
 license = {text = "MIT"}
 requires-python = ">=3.10"
